@@ -55,4 +55,4 @@ def reformat_languages(languages)
   my_hash
 end
 
-reformat_languages(languages)
+puts reformat_languages(languages)
