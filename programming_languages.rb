@@ -1,4 +1,4 @@
-
+def languages
   languages = {
   :oo => {
     :ruby => {
@@ -30,7 +30,7 @@
  
   }
 }
-
+end
 
 def reformat_languages(languages)
   my_hash = {}
