@@ -1,3 +1,5 @@
+require 'pry'
+
 def languages
   languages = {
   :oo => {
@@ -36,7 +38,11 @@ def reformat_languages(languages)
   my_hash = {}
   
   languages.each do |style, name|
-    my_hash[name] = style
+    name.each do |name, attribute|
+      attribute.each do |attribute, type|
+        binding.pry
+      end
+    end
   end
   puts my_hash
 end
