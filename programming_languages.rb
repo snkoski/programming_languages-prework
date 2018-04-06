@@ -40,6 +40,8 @@ def reformat_languages(languages)
   languages.each do |style, name|
     name.each do |name, attribute|
       attribute.each do |attribute, type|
+        my_hash[name] = {attribute: type}
+        my_hash[name]
         binding.pry
       end
     end
