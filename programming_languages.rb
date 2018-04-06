@@ -37,11 +37,11 @@ end
 def reformat_languages(languages)
   my_hash = {}
   
-  languages.each do |style, name|
+  languages.each do |language_style, name|
     name.each do |name, attribute|
-      attribute.each do |attribute, type|
-        my_hash[name] = {attribute: type}
-        my_hash[name]
+      attribute.each do |attribute, type_value|
+        my_hash[name] = {type: type_value}
+        my_hash[name] = {style: language_style
         binding.pry
       end
     end
