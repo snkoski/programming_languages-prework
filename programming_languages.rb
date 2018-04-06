@@ -40,7 +40,7 @@ def reformat_languages(languages)
   languages.each do |language_style, name|
     name.each do |name, attribute|
       attribute.each do |attribute, type_value|
-        if my_hash.has
+        if my_hash.has_key?
         my_hash[name] = {
           type: type_value,
           style: [language_style]
