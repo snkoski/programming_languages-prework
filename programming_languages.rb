@@ -1,6 +1,6 @@
 require 'pry'
 
-def languages
+
   languages = {
   :oo => {
     :ruby => {
@@ -32,7 +32,7 @@ def languages
  
   }
 }
-end
+
 
 def reformat_languages(languages)
   my_hash = {}
