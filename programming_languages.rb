@@ -42,7 +42,7 @@ def reformat_languages(languages)
       attribute.each do |attribute, type_value|
         my_hash[name] = {type: type_value}
         my_hash[name] = {style: language_style
-        binding.pry
+       # binding.pry
       end
     end
   end
