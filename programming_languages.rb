@@ -47,6 +47,7 @@ def reformat_languages(languages)
           type: type_value,
           style: [language_style]
         }
+      end
        # binding.pry
       end
     end
